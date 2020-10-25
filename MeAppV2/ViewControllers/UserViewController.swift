@@ -15,7 +15,7 @@ class UserViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        userLabel.text = "Welcome, \(name)!"
+        userLabel.text = "Приветствую, \(name)!"
     }
     
 
