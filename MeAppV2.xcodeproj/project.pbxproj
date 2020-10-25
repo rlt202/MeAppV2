@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB19D35C2544D5F700A7D533 /* HobbiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB19D35B2544D5F700A7D533 /* HobbiesViewController.swift */; };
+		AB19D35F2544D66C00A7D533 /* HobbiesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB19D35E2544D66C00A7D533 /* HobbiesData.swift */; };
 		AB912B37254374670066EA3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB912B36254374670066EA3B /* AppDelegate.swift */; };
 		AB912B39254374670066EA3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB912B38254374670066EA3B /* SceneDelegate.swift */; };
 		AB912B3B254374670066EA3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB912B3A254374670066EA3B /* ViewController.swift */; };
 		AB912B3E254374670066EA3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB912B3C254374670066EA3B /* Main.storyboard */; };
 		AB912B40254374690066EA3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB912B3F254374690066EA3B /* Assets.xcassets */; };
 		AB912B43254374690066EA3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB912B41254374690066EA3B /* LaunchScreen.storyboard */; };
+		AB912B4C254377BE0066EA3B /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB912B4B254377BE0066EA3B /* UserData.swift */; };
+		AB912B4F254379D90066EA3B /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB912B4E254379D90066EA3B /* UserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB19D35B2544D5F700A7D533 /* HobbiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbiesViewController.swift; sourceTree = "<group>"; };
+		AB19D35E2544D66C00A7D533 /* HobbiesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbiesData.swift; sourceTree = "<group>"; };
 		AB912B33254374670066EA3B /* MeAppV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeAppV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB912B36254374670066EA3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB912B38254374670066EA3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		AB912B3F254374690066EA3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB912B42254374690066EA3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB912B44254374690066EA3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB912B4B254377BE0066EA3B /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		AB912B4E254379D90066EA3B /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +45,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB47F45E2546172600E0B974 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				AB912B4B254377BE0066EA3B /* UserData.swift */,
+				AB19D35E2544D66C00A7D533 /* HobbiesData.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		AB47F4602546174000E0B974 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB912B3A254374670066EA3B /* ViewController.swift */,
+				AB912B4E254379D90066EA3B /* UserViewController.swift */,
+				AB19D35B2544D5F700A7D533 /* HobbiesViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AB47F4612546182100E0B974 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AB912B3C254374670066EA3B /* Main.storyboard */,
+				AB912B41254374690066EA3B /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		AB47F4622546184B00E0B974 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				AB912B36254374670066EA3B /* AppDelegate.swift */,
+				AB912B38254374670066EA3B /* SceneDelegate.swift */,
+				AB912B44254374690066EA3B /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
 		AB912B2A254374670066EA3B = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +102,11 @@
 		AB912B35254374670066EA3B /* MeAppV2 */ = {
 			isa = PBXGroup;
 			children = (
-				AB912B36254374670066EA3B /* AppDelegate.swift */,
-				AB912B38254374670066EA3B /* SceneDelegate.swift */,
-				AB912B3A254374670066EA3B /* ViewController.swift */,
-				AB912B3C254374670066EA3B /* Main.storyboard */,
+				AB47F4622546184B00E0B974 /* SupportFiles */,
+				AB47F4602546174000E0B974 /* ViewControllers */,
+				AB47F4612546182100E0B974 /* Storyboards */,
+				AB47F45E2546172600E0B974 /* DataModels */,
 				AB912B3F254374690066EA3B /* Assets.xcassets */,
-				AB912B41254374690066EA3B /* LaunchScreen.storyboard */,
-				AB912B44254374690066EA3B /* Info.plist */,
 			);
 			path = MeAppV2;
 			sourceTree = "<group>";
@@ -138,8 +182,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB912B3B254374670066EA3B /* ViewController.swift in Sources */,
+				AB912B4F254379D90066EA3B /* UserViewController.swift in Sources */,
 				AB912B37254374670066EA3B /* AppDelegate.swift in Sources */,
+				AB19D35C2544D5F700A7D533 /* HobbiesViewController.swift in Sources */,
+				AB912B4C254377BE0066EA3B /* UserData.swift in Sources */,
 				AB912B39254374670066EA3B /* SceneDelegate.swift in Sources */,
+				AB19D35F2544D66C00A7D533 /* HobbiesData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +336,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F44823RK6H;
-				INFOPLIST_FILE = MeAppV2/Info.plist;
+				INFOPLIST_FILE = MeAppV2/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +355,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F44823RK6H;
-				INFOPLIST_FILE = MeAppV2/Info.plist;
+				INFOPLIST_FILE = MeAppV2/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
