@@ -300,9 +300,9 @@
                     <tabBarItem key="tabBarItem" title="Hobbies" image="cloud" catalog="system" id="J2H-jW-hYT"/>
                     <connections>
                         <outlet property="hobbiesTextView" destination="ATn-cD-zUf" id="5MV-bT-ayM"/>
-                        <outletCollection property="hobbieBottons" destination="y1l-33-3Bu" collectionClass="NSMutableArray" id="2p0-gN-jPT"/>
-                        <outletCollection property="hobbieBottons" destination="olQ-wx-aXg" collectionClass="NSMutableArray" id="Xs5-ba-9jR"/>
-                        <outletCollection property="hobbieBottons" destination="xMs-Ky-ik2" collectionClass="NSMutableArray" id="jHJ-cQ-ET7"/>
+                        <outletCollection property="hobbieButtons" destination="y1l-33-3Bu" collectionClass="NSMutableArray" id="2p0-gN-jPT"/>
+                        <outletCollection property="hobbieButtons" destination="olQ-wx-aXg" collectionClass="NSMutableArray" id="Xs5-ba-9jR"/>
+                        <outletCollection property="hobbieButtons" destination="xMs-Ky-ik2" collectionClass="NSMutableArray" id="jHJ-cQ-ET7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X5Z-6G-2eQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

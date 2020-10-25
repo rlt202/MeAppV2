@@ -9,7 +9,7 @@ import UIKit
 
 class HobbiesViewController: UIViewController {
 
-    @IBOutlet var hobbieBottons: [UIButton]!
+    @IBOutlet var hobbieButtons: [UIButton]!
    
     @IBOutlet weak var hobbiesTextView: UITextView!
     
@@ -17,12 +17,12 @@ class HobbiesViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupForInterestsButtons()
+        setupForHobbiesButtons()
         hobbiesTextView.isUserInteractionEnabled = false
     }
     
-    private func setupForInterestsButtons() {
-        for button in hobbieBottons {
+    private func setupForHobbiesButtons() {
+        for button in hobbieButtons {
             button.layer.cornerRadius = 5
             button.layer.borderWidth = 1
         }
